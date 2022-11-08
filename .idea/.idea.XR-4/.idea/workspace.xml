@@ -2,44 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1b9fc05-3787-4c6f-aa2d-afe0585bc59d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XR-4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XR-4/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XR-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XR-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Controller.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Controller.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Grid.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Grid.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Skybox Light.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Skybox Light.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/XRControllerLeft.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/XRControllerLeft.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/XRControllerRight.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/XRControllerRight.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/XRControllerLeft.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/XRControllerLeft.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/XRControllerRight.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/XRControllerRight.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Grid_Light_512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Grid_Light_512x512.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/Images/project-header-vr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/Images/project-header-vr.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/VRTutorialContainer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/VRTutorialContainer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/VRTutorialProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/VRTutorialProjectSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/VRTutorialStyle.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/VRTutorialStyle.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/VRTutorialWelcomePage.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Tutorial/VRTutorialWelcomePage.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GyroController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GyroController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667466551951</updated>
       <workItem from="1667466562955" duration="5504000" />
-      <workItem from="1667891460090" duration="6542000" />
+      <workItem from="1667891460090" duration="7706000" />
     </task>
     <servers />
   </component>

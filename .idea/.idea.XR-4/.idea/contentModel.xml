@@ -6,10 +6,30 @@
     <e p="C:\Users\Vive Wireless\Documents\XR-4" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Arcade_Car_Physics" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="DemoScripts" t="Include">
+              <e p="CameraFollow.cs" t="Include" />
+              <e p="CheckPointEvent.cs" t="Include" />
+              <e p="RaceTrackCheckpointsManager.cs" t="Include" />
+            </e>
+            <e p="EngineSoundManager.cs" t="Include" />
+            <e p="Ghost.cs" t="Include" />
+            <e p="Suspension.cs" t="Include" />
+            <e p="Trails" t="Include">
+              <e p="Trail.cs" t="Include" />
+              <e p="TrailEmitter.cs" t="Include" />
+            </e>
+            <e p="VehicleBehaviour.asmdef" t="Include" />
+            <e p="VehicleInputs.cs" t="Include" />
+            <e p="WheelVehicle.cs" t="Include" />
+          </e>
+          <e p="Skybox Gradient.shader" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="GyroController.cs" t="Include" />
+          <e p="XRPlatformControllerSetup.cs" t="Include" />
         </e>
-        <e p="XRPlatformControllerSetup.cs" t="Include" />
       </e>
       <e p="DocCodeExamples.csproj" t="IncludeRecursive" />
       <e p="Library" t="Include">
@@ -5550,6 +5570,7 @@
       <e p="UnityEngine.SpatialTracking.Tests.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.TestRunner.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.XR.LegacyInputHelpers.csproj" t="IncludeRecursive" />
+      <e p="VehicleBehaviour.csproj" t="IncludeRecursive" />
       <e p="XR-4.sln" t="IncludeFlat" />
     </e>
   </component>

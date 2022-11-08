@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Logger : MonoBehaviour
+public class GyroController : MonoBehaviour
 {
     private GameObject board;
     private float initial = 0f;
@@ -13,7 +13,11 @@ public class Logger : MonoBehaviour
     }
     void Update()
     {
-
+        if (board == null)
+        {
+            return;
+        }
+        
         Vector3 controllerValues = gameObject.transform.eulerAngles; 
         
         if (controllerValues.z != 0f && !_isDefaultSet)

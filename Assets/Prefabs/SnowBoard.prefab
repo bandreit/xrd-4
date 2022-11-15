@@ -14,18 +14,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8615c1956c24b4dc0ad3166ec2fe6954,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.013692098
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8615c1956c24b4dc0ad3166ec2fe6954,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.013692098
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8615c1956c24b4dc0ad3166ec2fe6954,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.013692098
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8615c1956c24b4dc0ad3166ec2fe6954,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3619251
+      value: 2.335
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8615c1956c24b4dc0ad3166ec2fe6954,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.771503
+      value: 1.5595
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8615c1956c24b4dc0ad3166ec2fe6954,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.8546038
+      value: 2.7189
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8615c1956c24b4dc0ad3166ec2fe6954,
         type: 3}
@@ -70,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8615c1956c24b4dc0ad3166ec2fe6954,
         type: 3}
       propertyPath: m_Name
-      value: Intermediate Advanced Snowboard
+      value: SnowBoard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8615c1956c24b4dc0ad3166ec2fe6954, type: 3}

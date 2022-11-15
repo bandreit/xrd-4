@@ -25,7 +25,7 @@ namespace VehicleBehaviour {
         public bool IsPlayer { get => isPlayer;
             set => isPlayer = value;
         }
-        
+        private VRInputManager _vrInputManager;
         // Input names to read using GetAxis
         [SerializeField] internal VehicleInputs m_Inputs;
         string throttleInput => m_Inputs.ThrottleInput;
@@ -226,6 +226,8 @@ namespace VehicleBehaviour {
 
 		    boost = maxBoost;
 
+            _vrInputManager = gameObject.GetComponent <VRInputManager>();
+
             rb = GetComponent<Rigidbody>();
             spawnPosition = transform.position;
             spawnRotation = transform.rotation;
@@ -271,7 +273,19 @@ namespace VehicleBehaviour {
                 // Accelerate & brake
                 if (throttleInput != "" && throttleInput != null)
                 {
-                    throttle = GetInput(throttleInput) - GetInput(brakeInput);
+                    
+                    //if break pressed set handbreak
+                    if ((_vrInputManager.throttle - _vrInputManager.stopValue) <= 0)
+                        handbrake = true;
+                    else
+                    {
+                        handbrake = false;
+                        throttle = _vrInputManager.throttle - _vrInputManager.stopValue;
+                    }
+
+
+
+
                 }
                 // Boost
                 boosting = (GetInput(boostInput) > 0.5f);

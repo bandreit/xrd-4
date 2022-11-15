@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GyroController : MonoBehaviour
 {
     private GameObject board;
-    private GameObject camera;
+    public GameObject camera;
     private float initial = 0f;
     private bool _isDefaultSet = false;
     private float toRotateBy = 0f;
@@ -38,6 +38,11 @@ public class GyroController : MonoBehaviour
         toRotateBy = toRotateBy / 20;
         
         Debug.Log(toRotateBy);
+        var currentRotation = camera.transform.rotation;
+        Debug.Log(currentRotation.y);
+        currentRotation.y += toRotateBy*100;
+        Debug.Log(currentRotation.y);
+        camera.transform.rotation = currentRotation;
         _vrInputManager.turnInput = toRotateBy;
         // Debug.Log("rotateBy: " + toRotateBy);
 

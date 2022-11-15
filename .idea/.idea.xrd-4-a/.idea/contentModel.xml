@@ -15,6 +15,7 @@
             </e>
             <e p="EngineSoundManager.cs" t="Include" />
             <e p="Ghost.cs" t="Include" />
+            <e p="OWheelVehicle.cs" t="Include" />
             <e p="Suspension.cs" t="Include" />
             <e p="Trails" t="Include">
               <e p="Trail.cs" t="Include" />
@@ -22,7 +23,6 @@
             </e>
             <e p="VehicleBehaviour.asmdef" t="Include" />
             <e p="VehicleInputs.cs" t="Include" />
-            <e p="WheelVehicle.cs" t="Include" />
           </e>
           <e p="Skybox Gradient.shader" t="Include" />
         </e>

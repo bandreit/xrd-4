@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="656a7443-a9ec-480e-bcb2-7c467b2eeb7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Arcade_Car_Physics/Scripts/Folder.DotSettings.user.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Arcade_Car_Physics/Scripts/WheelVehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Arcade_Car_Physics/Scripts/WheelVehicle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Arcade_Car_Physics/Scripts/WheelVehicle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Arcade_Car_Physics/Scripts/WheelVehicle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.xrd-4-a/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.xrd-4-a/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.xrd-4-a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.xrd-4-a/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arcade_Car_Physics/Scripts/WheelVehicle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arcade_Car_Physics/Scripts/WheelVehicle.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SnowBoardWithWheels Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SnowBoardWithWheels Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.0.3/Starter Assets/XRI Default Input Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.0.3/Starter Assets/XRI Default Input Actions.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GyroController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GyroController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VRInputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VRInputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WheelVehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WheelVehicle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,7 @@
         <option value="$PROJECT_DIR$/Assets/Arcade_Car_Physics/Scripts/WheelVehicle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VRInputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WheelVehicle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GyroController.cs" />
       </list>
     </option>
   </component>
@@ -72,7 +75,9 @@
       <workItem from="1668502089659" duration="843000" />
       <workItem from="1668503205425" duration="4347000" />
       <workItem from="1668508726341" duration="349000" />
-      <workItem from="1668511861901" duration="417000" />
+      <workItem from="1668511861901" duration="7929000" />
+      <workItem from="1668519961133" duration="134000" />
+      <workItem from="1668520323200" duration="436000" />
     </task>
     <servers />
   </component>
@@ -85,6 +90,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1668513197328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1668513197328" />
     <state x="149" y="219" width="879" height="801" key="find.popup" timestamp="1668507338932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -275,22 +275,20 @@ namespace VehicleBehaviour {
                 {
                     
                     //if break pressed set handbreak
-                    if ((_vrInputManager.throttle - _vrInputManager.stopValue) <= 0)
-                        handbrake = true;
-                    else
-                    {
-                        handbrake = false;
-                        throttle = _vrInputManager.throttle - _vrInputManager.stopValue;
-                    }
-
-
+                    // if ((_vrInputManager.throttle - _vrInputManager.stopValue) <= 0)
+                    //     handbrake = true;
+                    // else
+                    // {
+                    //     handbrake = false;
+                    // }
+                    throttle = _vrInputManager.throttle - _vrInputManager.stopValue;
 
 
                 }
                 // Boost
                 boosting = (GetInput(boostInput) > 0.5f);
                 // Turn
-                steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
+                steering = turnInputCurve.Evaluate(_vrInputManager.turnInput) * steerAngle;
                 // Dirft
                 drift = GetInput(driftInput) > 0 && rb.velocity.sqrMagnitude > 100;
                 // Jump

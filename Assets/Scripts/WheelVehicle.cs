@@ -273,6 +273,10 @@ namespace VehicleBehaviour {
             // Get all the inputs!
             if (isPlayer)
             {
+                if (handbrake && _vrInputManager.throttle != 0)
+                {
+                    handbrake = false;
+                }
                 // Accelerate & brake
                 if (throttleInput != "" && throttleInput != null)
                 {

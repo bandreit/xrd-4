@@ -37,12 +37,12 @@ public class GyroController : MonoBehaviour
 
         toRotateBy = toRotateBy / 20;
         
-        Debug.Log(toRotateBy);
-        var currentRotation = camera.transform.rotation;
-        Debug.Log(currentRotation.y);
-        currentRotation.y += toRotateBy*100;
-        Debug.Log(currentRotation.y);
-        camera.transform.rotation = currentRotation;
+        // Debug.Log(toRotateBy);
+        // var currentRotation = camera.transform.rotation;
+        // Debug.Log(currentRotation.y);
+        // currentRotation.y += toRotateBy*100;
+        // Debug.Log(currentRotation.y);
+        // camera.transform.rotation = currentRotation;
         _vrInputManager.turnInput = toRotateBy;
         // Debug.Log("rotateBy: " + toRotateBy);
 

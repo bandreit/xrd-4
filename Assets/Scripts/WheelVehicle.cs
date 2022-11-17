@@ -24,8 +24,8 @@ namespace VehicleBehaviour {
         [SerializeField] bool isPlayer = true;
         public bool IsPlayer { get => isPlayer;
             set => isPlayer = value;
-        } 
-
+        }
+        private VRInputManager _vrInputManager;
         // Input names to read using GetAxis
         [SerializeField] internal VehicleInputs m_Inputs;
         string throttleInput => m_Inputs.ThrottleInput;
@@ -35,6 +35,9 @@ namespace VehicleBehaviour {
         string driftInput => m_Inputs.DriftInput;
 	    string boostInput => m_Inputs.BoostInput;
         
+        [SerializeField]
+        public bool customControlls = false;
+
         /* 
          *  Turn input curve: x real input, y value used
          *  My advice (-1, -1) tangent x, (0, 0) tangent 0 and (1, 1) tangent x
@@ -226,6 +229,8 @@ namespace VehicleBehaviour {
 
 		    boost = maxBoost;
 
+            _vrInputManager = gameObject.GetComponent <VRInputManager>();
+
             rb = GetComponent<Rigidbody>();
             spawnPosition = transform.position;
             spawnRotation = transform.rotation;
@@ -266,16 +271,37 @@ namespace VehicleBehaviour {
             speed = transform.InverseTransformDirection(rb.velocity).z * 3.6f;
 
             // Get all the inputs!
-            if (isPlayer) {
+            if (isPlayer)
+            {
+                if (handbrake && _vrInputManager.throttle != 0)
+                {
+                    handbrake = false;
+                }
                 // Accelerate & brake
                 if (throttleInput != "" && throttleInput != null)
                 {
-                    throttle = GetInput(throttleInput) - GetInput(brakeInput);
+                    
+                    if (customControlls)
+                    {
+                        throttle = _vrInputManager.throttle - _vrInputManager.stopValue;
+                    }
+                    else
+                    {
+                        throttle = GetInput(throttleInput) - GetInput(brakeInput);
+                    }
+
                 }
                 // Boost
                 boosting = (GetInput(boostInput) > 0.5f);
                 // Turn
-                steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
+                if (customControlls)
+                {
+                    steering = turnInputCurve.Evaluate(_vrInputManager.turnInput) * steerAngle;
+                }
+                else
+                {
+                    steering = turnInputCurve.Evaluate(GetInput(turnInput)) * steerAngle;
+                }
                 // Dirft
                 drift = GetInput(driftInput) > 0 && rb.velocity.sqrMagnitude > 100;
                 // Jump
@@ -306,10 +332,10 @@ namespace VehicleBehaviour {
             }
             else if (throttle != 0 && (Mathf.Abs(speed) < 4 || Mathf.Sign(speed) == Mathf.Sign(throttle)))
             {
-                foreach (WheelCollider wheel in driveWheel)
-                {
-                    wheel.motorTorque = throttle * motorTorque.Evaluate(speed) * diffGearing / driveWheel.Length;
-                }
+                    foreach (WheelCollider wheel in driveWheel)
+                    {
+                        wheel.motorTorque = throttle * motorTorque.Evaluate(speed) * diffGearing / driveWheel.Length;
+                    }     
             }
             else if (throttle != 0)
             {

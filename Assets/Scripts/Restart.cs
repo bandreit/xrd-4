@@ -14,8 +14,8 @@ public class Restart : MonoBehaviour
             var o = other.gameObject;
             o.transform.position = new Vector3(476.5f, 83.2799988f, 406.700012f);
             o.transform.rotation = new Quaternion(0.0f, 270.5f, 0f, 0f);
+            o.gameObject.GetComponent<WheelVehicle>().ToogleHandbrake(true);
         }
 
-        //other.gameObject.GetComponent<WheelVehicle>().Handbrake = true;
     }
 }

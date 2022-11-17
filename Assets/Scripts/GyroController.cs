@@ -33,6 +33,7 @@ public class GyroController : MonoBehaviour
         }
         
         toRotateBy = initial - controllerZ;
+        // Debug.Log(toRotateBy);
         toRotateBy = Mathf.Clamp(toRotateBy, -20f, 20f);
 
         toRotateBy = toRotateBy / 20;
